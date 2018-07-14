@@ -1,0 +1,10 @@
+#! /bin/bash
+
+rm -f *.tex~ nimA_2018_MCP_PMTs.mtc1 nimA_2018_MCP_PMTs.aux nimA_2018_MCP_PMTs.dvi nimA_2018_MCP_PMTs.lof nimA_2018_MCP_PMTs.log nimA_2018_MCP_PMTs.out nimA_2018_MCP_PMTs.lot nimA_2018_MCP_PMTs.toc nimA_2018_MCP_PMTs.brf nimA_2018_MCP_PMTs.maf nimA_2018_MCP_PMTs.mtc nimA_2018_MCP_PMTs.mtc0 nimA_2018_MCP_PMTs.nlo nimA_2018_MCP_PMTs.end nimA_2018_MCP_PMTs.spl nimA_2018_MCP_PMTsNotes.bib
+
+pdflatex -shell-escape nimA_2018_MCP_PMTs.tex
+pdflatex -shell-escape nimA_2018_MCP_PMTs.tex
+pdflatex -shell-escape nimA_2018_MCP_PMTs.tex
+
+rm -f *.tex~ nimA_2018_MCP_PMTs.mtc1 nimA_2018_MCP_PMTs.aux nimA_2018_MCP_PMTs.dvi nimA_2018_MCP_PMTs.lof nimA_2018_MCP_PMTs.log nimA_2018_MCP_PMTs.out nimA_2018_MCP_PMTs.lot nimA_2018_MCP_PMTs.toc nimA_2018_MCP_PMTs.brf nimA_2018_MCP_PMTs.maf nimA_2018_MCP_PMTs.mtc nimA_2018_MCP_PMTs.mtc0 nimA_2018_MCP_PMTs.nlo nimA_2018_MCP_PMTs.end nimA_2018_MCP_PMTs.spl nimA_2018_MCP_PMTsNotes.bib
+
